@@ -1,12 +1,11 @@
 function compute() {
 
-    let principal = document.getElementById("amountOne").value 
-    let interestRate = document.getElementById("rate").value
-    let years = document.getElementById("noYears").value
-    let interestEarned = principal * interestRate * years *.01 + Number(principal);// this is still wrong
-    let d = new Date();
-    let n = d.getFullYear();
-    let futureDate = Number(n) + Number(years); 
+    var principal = document.getElementById("amountOne").value 
+    var interestRate = document.getElementById("rate").value
+    var years = document.getElementById("noYears").value
+    var InterestValue = principal * interestRate * years *.01 + Number(principal);// this is still wrong
+    var x = new Date().getFullYear();
+    var futureDate = Number(x) + Number(years); 
 
     document.getElementById("answer1").innerHTML = "If you deposit $" + principal;
     document.getElementById("answer2").innerHTML = "At a rate of " + interestRate + '%';
