@@ -1,8 +1,8 @@
 body 
     {
-    background-color:Black; 
-    color:white; 
+    background-color:black; 
     font:arial;
+    color:white; 
     }
 
 h1
@@ -15,14 +15,14 @@ h1
 
 .maindiv 
     { 
-    text-indent: 10px;
-    margin:0 auto;
-    background-color:white; 
-    color:Black; 
-    font:arial;
+    background-color:white;
+    color:black; 
     width:300px;
     padding:20px;
-    border-radius:25px;
+    border-radius:25px;    
+    text-indent: 10px;
+    margin:0 auto;    
+    font:arial;
     }
 
     label
